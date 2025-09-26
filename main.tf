@@ -7,8 +7,8 @@ resource "google_storage_bucket" "my-bucket" {
 }
 #
 resource "google_storage_bucket" "my-bucket2" {
-  name                     = "tt-githubdemo-bucket-002"
-  project                  = "tt-dev-001"
+  name                     = "tt-githubdemo-bucket-00212"
+  project                  = "project-4-endgame"
   location                 = "US"
   force_destroy            = true
   public_access_prevention = "enforced"
