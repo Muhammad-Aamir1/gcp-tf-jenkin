@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "my-bucket121" {
-  name                     = "tt-githubdemo-bucket-bond"
+  name                     = "tt-githubdemo-bucket-sandy"
   project                  = "project-4-endgame"
   location                 = "US"
   force_destroy            = true
@@ -7,7 +7,7 @@ resource "google_storage_bucket" "my-bucket121" {
 }
 #
 resource "google_storage_bucket" "my-bucket2222" {
-  name                     = "tt-githubdemo-bucket-james"
+  name                     = "tt-githubdemo-bucket-tommy"
   project                  = "project-4-endgame"
   location                 = "US"
   force_destroy            = true
