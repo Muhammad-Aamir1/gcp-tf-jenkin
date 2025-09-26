@@ -9,8 +9,8 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-               git "https://github.com/Muhammad-Aamir1/gcp-tf-jenkin.git"
-            }
+               git "https://${GIT_TOKEN}@github.com/Muhammad-Aamir1/gcp-tf-jenkin.git"
+             }
         }
         
         stage('Terraform Init') {
